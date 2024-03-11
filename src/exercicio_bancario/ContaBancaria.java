@@ -39,7 +39,10 @@ public class ContaBancaria {
     }
 
     public boolean transferencia(ContaBancaria contaDestino, double valor) {
-        if (valor <= getSaldo()) {
+        if(contaDestino == null) {
+        	return false;
+        }
+    	if (valor <= getSaldo()) {
             setSaldo(getSaldo() - valor);
             contaDestino.deposito(valor);
             return true;

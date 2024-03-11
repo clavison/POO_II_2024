@@ -2,7 +2,7 @@ package exercicio_bancario;
 
 import java.time.LocalDate;
 
-class ContaPoupanca extends ContaBancaria {
+public class ContaPoupanca extends ContaBancaria {
 	
     private static final int LIMITE_SAQUES_MES = 5;
     private int saquesRealizadosMes;

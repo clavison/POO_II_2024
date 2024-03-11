@@ -1,6 +1,6 @@
 package exercicio_bancario;
 
-class ContaEspecial extends ContaBancaria {
+public class ContaEspecial extends ContaBancaria {
 	private double limite;
 
 	public ContaEspecial(int numeroConta, double saldo, double limite) {
