@@ -1,0 +1,10 @@
+Maçã,5
+Banana,3
+Laranja,4
+Tomate,2
+Cebola,1
+Alface,1
+Pão,1
+Leite,3
+Ovos,12
+Iogurte,2

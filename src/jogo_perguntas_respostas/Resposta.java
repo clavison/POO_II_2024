@@ -12,10 +12,6 @@ public class Resposta {
 		return "erro";
 	}
 	
-	public Resposta() {
-		this(new Pergunta(), false);
-	}
-	
 	public Resposta(Pergunta pergunta, boolean resposta) {
 		this.pergunta = pergunta;
 		this.resposta = resposta;
@@ -23,14 +19,4 @@ public class Resposta {
 	public Pergunta getPergunta() {
 		return pergunta;
 	}
-	public void setPergunta(Pergunta pergunta) {
-		this.pergunta = pergunta;
-	}
-	public boolean isResposta() {
-		return resposta;
-	}
-	public void setResposta(boolean resposta) {
-		this.resposta = resposta;
-	}
-
 }

@@ -1,0 +1,50 @@
+Banana,15,R$ 2,00
+Tomate,12,R$ 4,00
+Cebola,8,R$ 5,00
+Alface,5,R$ 6,00
+Pão,10,R$ 7,00
+Ovos,20,R$ 9,00
+Iogurte,10,R$ 10,00
+Frango,5,R$ 11,00
+Carne bovina,5,R$ 12,00
+Arroz,10,R$ 13,00
+Feijão,10,R$ 14,00
+Macarrão,15,R$ 15,00
+Café,10,R$ 16,00
+Maçã,10,R$ 1,50
+Açúcar,10,R$ 17,00
+Sal,5,R$ 18,00
+Óleo,10,R$ 19,00
+Laranja,20,R$ 3,00
+Farinha,10,R$ 20,00
+Leite em pó,10,R$ 21,00
+Presunto,5,R$ 22,00
+Queijo,5,R$ 23,00
+Iogurte natural,10,R$ 24,00
+Manteiga,5,R$ 25,00
+Geléia,10,R$ 26,00
+Ketchup,10,R$ 27,00
+Mostarda,10,R$ 28,00
+Maionese,10,R$ 29,00
+Vinagre,10,R$ 30,00
+Molho de tomate,10,R$ 31,00
+Arroz integral,10,R$ 32,00
+Aveia,10,R$ 33,00
+Granola,10,R$ 34,00
+Castanha do Pará,5,R$ 35,00
+Nozes,5,R$ 36,00
+Amêndoas,5,R$ 37,00
+Uvas passas,5,R$ 38,00
+Damasco seco,5,R$ 39,00
+Figo seco,5,R$ 40,00
+Mel,5,R$ 41,00
+Geleia real,5,R$ 42,00
+Própolis,5,R$ 43,00
+Chá verde,10,R$ 44,00
+Camomila,10,R$ 45,00
+Hortelã,5,R$ 46,00
+Salsa,5,R$ 47,00
+Leite,0,R$ 8,00
+Cebolinha,5,R$ 48,00
+Pimentão verde,5,R$ 49,00
+Brócolis,5,R$ 50,00

@@ -11,10 +11,6 @@ public class Pergunta {
 		setRespostaCorreta(dados[1].equals("Verdadeiro"));
 	}
 	
-	public Pergunta() {
-		
-	}
-	
 	public Pergunta(String titulo, boolean respostaCorreta) {
 		this.titulo = titulo;
 		this.respostaCorreta = respostaCorreta;

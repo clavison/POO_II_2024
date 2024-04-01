@@ -1,0 +1,4 @@
+1,A,acerto
+2,B,acerto
+3,C,erro
+4,D,erro

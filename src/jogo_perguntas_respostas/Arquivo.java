@@ -25,6 +25,22 @@ public class Arquivo {
 			e.printStackTrace();
 		}
 	}
+	public String lerRespostas() {
+		String ret = "";
+		try {
+			FileReader fr = new FileReader("respostas.txt");
+			BufferedReader br = new BufferedReader(fr);
+			String linha = "";
+			while ((linha = br.readLine()) != null) {
+				ret += linha + "\n";
+			}
+			br.close();
+			fr.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return ret;
+	}
 	
 	public int calculaPontuacao(ArrayList<Resposta> respostas) {
 		int ponto = 0;
@@ -68,16 +84,9 @@ public class Arquivo {
 		perguntas = new ArrayList<Pergunta>();
 	}
 
-	public Arquivo(ArrayList<Pergunta> perguntas) {
-		this.perguntas = perguntas;
-	}
-
 	public ArrayList<Pergunta> getPerguntas() {
 		return perguntas;
 	}
 
-	public void setPerguntas(ArrayList<Pergunta> perguntas) {
-		this.perguntas = perguntas;
-	}
 
 }
