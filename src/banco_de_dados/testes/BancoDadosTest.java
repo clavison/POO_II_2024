@@ -5,13 +5,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.ArrayList;
 
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 
 import banco_de_dados.CidadeService;
 import banco_de_dados.ClienteService;
 import banco_de_dados.model.Cidade;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class BancoDadosTest {
 	
 	@BeforeAll
@@ -22,20 +25,21 @@ class BancoDadosTest {
 
 	
 	@Test
+	@Order(1)
 	void insereCidadeTest() {
 		System.out.println("********* 1");
 		Cidade c = new Cidade(0,"Araranguá","SC");
 		assertEquals(1, CidadeService.insereCidade(c));
 	}
 	
-//	@Test
-//	@Order(1)
-//	void listaCidadeTest() {
-//		System.out.println("********* 2");
-//		ArrayList<Cidade> lista = CidadeService.listAll();
-//		assertEquals(1, lista.size());
-//		assertEquals("Araranguá", lista.get(1).getNome());
-//	}
+	@Test
+	@Order(2)
+	void listaCidadeTest() {
+		System.out.println("********* 2");
+		ArrayList<Cidade> lista = CidadeService.listAll();
+		assertEquals(1, lista.size());
+		assertEquals("Araranguá", lista.get(0).getNome());
+	}
 	
 //	@Test
 //	void alteraCidadeExistente() {
