@@ -63,7 +63,7 @@ public class CidadeService {
 			PreparedStatement pr = conn.prepareStatement(sql);
 			int total = pr.executeUpdate();
 			
-			sql = "ALTER TABLE cidade AUTO_INCREMENT = 0";
+			sql = "ALTER TABLE cidade AUTO_INCREMENT = 1";
 			pr = conn.prepareStatement(sql);
 			pr.executeUpdate();
 			

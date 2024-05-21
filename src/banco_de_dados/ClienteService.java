@@ -67,7 +67,7 @@ public class ClienteService {
 			PreparedStatement pr = conn.prepareStatement(sql);
 			int total = pr.executeUpdate();
 			
-			sql = "ALTER TABLE cliente AUTO_INCREMENT = 0";
+			sql = "ALTER TABLE cliente AUTO_INCREMENT = 1";
 			pr = conn.prepareStatement(sql);
 			pr.executeUpdate();
 			
@@ -100,6 +100,13 @@ public class ClienteService {
 			e.printStackTrace();
 		}
 		return lista;
+	}
+	
+	public static int retornaExcecao(boolean ex) throws NullPointerException{
+		if(ex)	
+			throw new NullPointerException();
+		return 1;
+			
 	}
 
 }
